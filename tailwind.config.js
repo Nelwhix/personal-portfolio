@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       fontFamily: {
         header: ['Oxanium']
+      },
+      colors: {
+        'body': '#256EFF'
       }
     },
   },
