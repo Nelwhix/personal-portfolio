@@ -7,7 +7,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        header: ['Oxanium']
+        header: ['Oxanium'],
+        logo: ['Chakra Petch']
       },
       colors: {
         'body': '#256EFF'

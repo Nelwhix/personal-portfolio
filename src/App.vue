@@ -5,8 +5,15 @@ import MenuScreen from "./components/MenuScreen.vue";
 
 </script>
 
-<template>
+<template class="app">
   <Navigation />
   <MenuScreen />
   <RouterView />
 </template>
+
+<style>
+  .app {
+    background-image: url('./assets/bgcover.svg');
+    background-repeat: repeat;
+  }
+</style>

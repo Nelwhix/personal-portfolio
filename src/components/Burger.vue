@@ -1,12 +1,16 @@
 <script setup lang="ts">
-    import { ref, reactive } from 'vue';
+    import { useAppStore } from '@/stores/appstore';
 
-    const navMode = ref(false)
-    const chMod = () => (navMode.value = !navMode.value)
+    const appstore = useAppStore()
+    const chMod = () => {
+        appstore.navMode = !appstore.navMode
+        appstore.menuMode = !appstore.menuMode
+    }
+    
 </script>
 
 <template>
-    <button @click="chMod" class="h-10" :class="{'change': navMode}">
+    <button @click="chMod" class="h-10" :class="{'change': appstore.navMode }">
         <div class="bar1 rounded-md"></div>
         <div class="bar2 rounded-md"></div>
         <div class="bar3 rounded-md"></div>
@@ -19,7 +23,7 @@
         height: 4px;
         background-color: black;
         margin: 4px 0;
-        transition: 0.5s;
+        transition: 0.4s;
     }
 
     .bar3 {
@@ -28,11 +32,11 @@
         margin-left: 15px;
         background-color:#256EFF;
         height: 4px;
-        transition: 0.5s;
+        transition: 0.4s;
     }
 
     .change .bar1 {
-        transform: translate(0, 10px) rotate(-45deg);
+        transform: translate(0, 8px) rotate(-45deg);
         background-color: white;
     }
 
@@ -41,7 +45,7 @@
     }
 
     .change .bar3 {
-        transform: translate(0, -7px) rotate(45deg);
+        transform: translate(0, -8px) rotate(45deg);
         width: 40px;
         margin-left: 0;
         background-color: white;
