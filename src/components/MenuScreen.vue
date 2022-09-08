@@ -11,7 +11,7 @@ const closeDown = () => (burgerHover.value = false)
 </script>
 
 <template>
-    <section style="background-color:#256EFF" class="z-50 absolute top-0 h-screen w-full" :class="{ 'hidden': store.menuMode }">
+    <section style="background-color:#256EFF" class="z-50 fixed top-0 h-screen w-full" :class="{ 'hidden': store.menuMode }">
         <div class="my-5 mx-8 md:mx-24 flex justify-between">
             <div class="text-white">
                 <Logo />

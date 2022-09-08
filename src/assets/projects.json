@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Jobber",
+    "description": "Jobber is a job board. It has a series of job listings and employer contacts with authentication. The image files are served from AWS S3",
+    "tags": ["Bootstrap", "PHP", "Laravel"],
+    "project-link": "https://guarded-lake-88106.herokuapp.com/",
+    "github-link": "https://github.com/Nelwhix/Jobber"
+  },
+  {
+    "id": 2,
+    "name": "Nelson Blog App",
+    "description": "It has dark/light mode theme.It has a rich text editor made with QuillJS. It has google oauth2 login and regular email/password login",
+    "tags": ["Javascript", "Tailwind", "VueJS", "QuillJS", "googleOauth2"],
+    "project-link": "https://nelson-blog-app.netlify.app/",
+    "github-link": "https://github.com/Nelwhix/Vue-Blog-app"
+  },
+  {
+    "id": 3,
+    "name": "Blog App API",
+    "description": "This is a laravel API for my Vue Blog app. It has session based authentication for only my SPA. It also has two types of users, Admin and guest. Admin has full admin abilities while guest are only allowed to view resources.",
+    "tags": ["PHP", "Laravel"],
+    "project-link": "#",
+    "github-link": "https://github.com/Nelwhix/blog-api"
+  },
+  {
+    "id": 4,
+    "name": "Quotsy-API",
+    "description": "Laravel API that responds with inspirational quotes. If you are making a mobile widget with flutter/swift to display quotes to users, this could be useful😁. It has Token based authentication with Laravel Sanctum. Only authenticated users are allowed to delete, update or add new quotes to the db. Guest users can search and view quotes",
+    "tags": ["PHP", "Laravel"],
+    "project-link": "#",
+    "github-link": "https://github.com/Nelwhix/blog-api"
+  },
+  {
+    "id": 5,
+    "name": "FileSorter",
+    "description": "Golang CLI that lists all the files in a directory, archives files and folders, deletes files and folders",
+    "tags": ["Golang"],
+    "project-link": "#",
+    "github-link": "https://github.com/Nelwhix/fileSorter"
+  },
+  {
+    "id": 6,
+    "name": "Yaba Apartments",
+    "description": "This was my first ever website, so it gets a spot here😄",
+    "tags": ["HTML", "CSS", "Javascript"],
+    "project-link": "https://nelwhix.github.io/Yaba-Apartment/",
+    "github-link": "https://github.com/Nelwhix/Yaba-Apartment"
+  }
+]

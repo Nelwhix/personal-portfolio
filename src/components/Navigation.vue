@@ -11,9 +11,9 @@ const closeDown = () => (burgerHover.value = false)
 <template>
     <section class="h-[20vh] sticky top-3">
         <div class="my-5 mx-8 md:mx-24 flex justify-between">
-            <div class="text-body">
+            <router-link :to="{name: 'home'}" class="text-body">
                 <Logo />
-            </div>
+            </router-link>
             <div class="flex overflow-hidden h-8">
                 <p style="color:#256EFF" class="transition-transform ease-in-out duration-300 font-header text-2xl mt-8 mr-4" :class="{ '-translate-y-7': burgerHover}">MENU</p>
                 <Burger @mouseover="closeUp" @mouseout="closeDown"/>

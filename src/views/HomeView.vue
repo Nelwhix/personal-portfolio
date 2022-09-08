@@ -1,30 +1,41 @@
 <script setup lang="ts">
+import ProjectCard from "../components/ProjectCard.vue";
+import projects from "../assets/projects.json";
 
+const portfolios = projects;
 </script>
 
 <template>
-    <section class="px-10 font-logo">   
-        <p>
-            <span class="text-xl">
-                Hello! 
-                <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" alt="waving hand" class="w-6 inline">
-                , my name is <span class="block text-6xl">Isioma Nelson</span></span> 
-            <span class="text-4xl text-white desc">
-                I love making web apps that are fun to use
-            </span>
-        </p>
-        <p>I'm a web developer specialized in building
-            backend systems. then I play with Vue from time 
-            to time. I am diligent and do my projects to the best of my ability
-        </p>
-        <a class="mt-5 border-2 border-body
-        rounded-md p-3 fill-button fill-image" href="../assets/resume.pdf" download>
-            Resume
-        </a>
-
-        <img src="../assets/headshot.HEIC" alt="" class="mt-10 w-96 rounded-md">
-
+    <section class="px-10 font-logo">
+        <div class="grid gap-0 grid-rows-1 sm:grid-cols-2 mb-0">
+            <div class="col">
+                <p>
+                    <span class="text-xl">
+                        Hello! 
+                        <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" alt="waving hand" class="w-6 inline">
+                        , my name is <span class="block text-6xl">Isioma Nelson</span></span> 
+                    <span class="text-4xl text-white desc mt-5">
+                        I love making web apps that are fun to use
+                    </span>
+                </p>
+                <p class="mt-5 text-sm">I'm a web developer specialized in building
+                    backend systems. then I play with Vue from time 
+                    to time. I am diligent and do my projects to the best of my ability
+                </p>
+                <a class="mt-5 border-2 border-body
+                rounded-md p-3 fill-button fill-image mb-10 md:mb-0" href="../assets/resume.pdf" download>
+                    Resume
+                </a>
+            </div>
+            <div class="col">
+                <img src="../assets/headshot.HEIC" alt="" class="md:mt-0 md:ml-10 w-96 rounded-md">
+            </div>
+        </div>   
         <h2 class="mt-10 text-3xl">Projects <span class="opacity-50">( ) {</span></h2>
+        <div class="mt-6">
+            <p>There are about {{portfolios.length}} projects listed here and more to come</p>
+            <ProjectCard v-for="(portfolio, i) in portfolios.slice(0,4)" :key="portfolio.id" class="transition-transform hover:scale-105 hover:duration-500 ease-in-out" />
+        </div>
     </section>
 </template>
 
