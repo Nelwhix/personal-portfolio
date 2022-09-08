@@ -2,18 +2,13 @@
 import { RouterView } from "vue-router";
 import Navigation from "./components/Navigation.vue";
 import MenuScreen from "./components/MenuScreen.vue";
+import Footer from "./components/Footer.vue";
 
 </script>
 
-<template class="app">
+<template>
   <Navigation />
   <MenuScreen />
   <RouterView />
+  <Footer />
 </template>
-
-<style>
-  .app {
-    background-image: url('./assets/bgcover.svg');
-    background-repeat: repeat;
-  }
-</style>

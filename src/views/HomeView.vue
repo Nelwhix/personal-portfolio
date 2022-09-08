@@ -18,7 +18,7 @@ const portfolios = projects;
                         I love making web apps that are fun to use
                     </span>
                 </p>
-                <p class="mt-5 text-sm">I'm a web developer specialized in building
+                <p class="mt-5 text-sm md:text-lg">I'm a web developer specialized in building
                     backend systems. then I play with Vue from time 
                     to time. I am diligent and do my projects to the best of my ability
                 </p>
@@ -33,13 +33,16 @@ const portfolios = projects;
         </div>   
         <h2 class="mt-10 text-3xl">Projects <span class="opacity-50">( ) {</span></h2>
         <div class="mt-6">
-            <p>There are about {{portfolios.length}} projects listed here and more to come</p>
-            <ProjectCard v-for="(portfolio, i) in portfolios.slice(0,4)" :key="portfolio.id" class="transition-transform hover:scale-105 hover:duration-500 ease-in-out" />
+            <p>There are about <span class="text-body font-semibold text-xl">{{portfolios.length}}</span> projects listed here and more to come</p>
+            <div class="mb-10 grid grid-flow-row sm:grid-cols-2 sm:gap-4 md:gap-4 md:grid-cols-3">
+                <ProjectCard v-for="portfolio in portfolios.slice(0,6)" :key="portfolio.id" :portfolio="portfolio" class="transition-transform hover:scale-105 hover:duration-500 ease-in-out" />
+            </div>
         </div>
+        <span class="opacity-50 text-3xl">}</span>
     </section>
 </template>
 
-<style scoped>
+<style>
     .desc {
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: black;
