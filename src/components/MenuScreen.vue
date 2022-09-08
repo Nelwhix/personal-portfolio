@@ -8,6 +8,11 @@ const store = useAppStore()
 const burgerHover = ref(false)
 const closeUp = () => (burgerHover.value = true)
 const closeDown = () => (burgerHover.value = false)
+
+const chMod = () => {
+    store.navMode = !store.navMode
+    store.menuMode = !store.menuMode
+}
 </script>
 
 <template>
@@ -22,10 +27,9 @@ const closeDown = () => (burgerHover.value = false)
             </div>
         </div>
         <nav class="text-white grid justify-end gap-1 mr-10 md:mr-16 font-header text-6xl md:text-[5rem] mt-12">
-            <router-link to="#" class="text-end nav-link">HOME</router-link>
-            <router-link to="#" class="text-body nav-link navLinks" data-text="PROJECTS">PROJECTS</router-link>
-            <router-link to="#" class="navLinks nav-link text-body" data-text="ABOUT">ABOUT</router-link>
-            <router-link to="#" class="navLinks nav-link text-body" data-text="CONTACT">CONTACT</router-link>
+            <router-link :to="{name: 'home'}" class="text-end nav-link">HOME</router-link>
+            <a href="#projects" @click="chMod" class="text-body nav-link navLinks" data-text="PROJECTS">PROJECTS</a>
+            <a href="#contact" @click="chMod" class="navLinks nav-link text-body" data-text="CONTACT">CONTACT</a>
         </nav>
     </section>
 </template>

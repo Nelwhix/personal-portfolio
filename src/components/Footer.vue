@@ -5,7 +5,7 @@ const year: string = new Date().getFullYear().toString()
 </script>
 
 <template>
-    <section class="mt-10 px-10 font-logo">
+    <section class="mt-10 px-10 font-logo" id="contact">
         <h2 class="desc mb-5 text-white text-5xl">Get in Touch!</h2>
         <p>If you need me for a gig or want to talk about anything Laravel, Tailwind and VueJS. Hit me up!</p>
         <button class="mt-5 border-2 border-body

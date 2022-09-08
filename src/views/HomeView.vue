@@ -32,7 +32,7 @@ const portfolios = projects;
             </div>
         </div>   
         <h2 class="mt-10 text-3xl">Projects <span class="opacity-50">( ) {</span></h2>
-        <div class="mt-6">
+        <div class="mt-6" id="projects">
             <p>There are about <span class="text-body font-semibold text-xl">{{portfolios.length}}</span> projects listed here and more to come</p>
             <div class="mb-10 grid grid-flow-row sm:grid-cols-2 sm:gap-4 md:gap-4 md:grid-cols-3">
                 <ProjectCard v-for="portfolio in portfolios.slice(0,6)" :key="portfolio.id" :portfolio="portfolio" class="transition-transform hover:scale-105 hover:duration-500 ease-in-out" />
