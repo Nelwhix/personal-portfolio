@@ -1,1 +1,1 @@
-My personal portfolio website made with Vue, Typescript, Gsap and TailwindCSS
+My personal portfolio website made with Vue, Typescript and TailwindCSS [![Netlify Status](https://api.netlify.com/api/v1/badges/97e03e61-dea0-4f86-9e51-4e96e1f51f44/deploy-status)](https://app.netlify.com/sites/nelson-portfolio-site/deploys)
