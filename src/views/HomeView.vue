@@ -6,7 +6,7 @@ const portfolios = projects;
 </script>
 
 <template>
-    <section class="px-10 font-logo">
+    <section class="px-10 font-logo mt-10">
         <div class="grid gap-0 grid-rows-1 sm:grid-cols-2 mb-0">
             <div class="col">
                 <p>
@@ -23,12 +23,12 @@ const portfolios = projects;
                     to time. I am diligent and do my projects to the best of my ability
                 </p>
                 <a class="mt-5 border-2 border-body
-                rounded-md p-3 fill-button fill-image mb-10 md:mb-0" href="../assets/resume.pdf" download>
+                rounded-md p-3 fill-button fill-image mb-10 md:mb-0" href="https://i.ibb.co/Yyt3G3Y/resume.jpg" download>
                     Resume
                 </a>
             </div>
             <div class="col">
-                <img src="../assets/headshot.HEIC" alt="" class="md:mt-0 md:ml-10 w-96 rounded-md">
+                <img src="https://i.ibb.co/Vj2fZQd/IMG-1414.jpg" alt="headshot" class="md:mt-0 md:ml-10 w-96 rounded-md">
             </div>
         </div>   
         <h2 class="mt-10 text-3xl">Projects <span class="opacity-50">( ) {</span></h2>
