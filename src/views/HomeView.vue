@@ -7,19 +7,19 @@ const portfolios = projects;
 
 <template>
     <section class="px-10 font-logo mt-10">
-        <div class="grid gap-0 grid-rows-1 sm:grid-cols-2 mb-0">
+        <div class="grid sm:justify-between grid-rows-1 sm:grid-cols-2 mb-0">
             <div class="col">
                 <p>
                     <span class="text-xl">
-                        Hello! 
+                        Hello!
                         <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" alt="waving hand" class="w-6 inline">
-                        , my name is <span class="block text-6xl">Isioma Nelson</span></span> 
+                        , my name is <span class="block text-6xl">Isioma Nelson</span></span>
                     <span class="text-4xl text-white desc mt-5">
                         I love making web apps that are fun to use
                     </span>
                 </p>
                 <p class="mt-5 text-sm md:text-lg">I'm a web developer specialized in building
-                    backend systems. then I play with Vue from time 
+                    backend systems. then I play with Vue from time
                     to time. I am diligent and do my projects to the best of my ability
                 </p>
                 <a class="mt-5 border-2 border-body
@@ -30,7 +30,7 @@ const portfolios = projects;
             <div class="col">
                 <img src="https://i.ibb.co/Vj2fZQd/IMG-1414.jpg" alt="headshot" class="md:mt-0 md:ml-10 w-96 rounded-md">
             </div>
-        </div>   
+        </div>
         <h2 class="mt-10 text-3xl">Projects <span class="opacity-50">( ) {</span></h2>
         <div class="mt-6" id="projects">
             <p>There are about <span class="text-body font-semibold text-xl">{{portfolios.length}}</span> projects listed here and more to come</p>
