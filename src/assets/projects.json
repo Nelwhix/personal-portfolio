@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "name": "Nelson Blog App",
+    "name": "Devleads",
     "description": "It has dark/light mode theme. It has a rich text editor made with QuillJS. It has google oauth2 login and regular email/password login",
     "tags": ["Javascript", "Tailwind", "VueJS", "QuillJS", "googleOauth2"],
     "projectLink": "https://nelson-blog-app.netlify.app/",
