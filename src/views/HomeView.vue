@@ -23,7 +23,7 @@ const portfolios = projects;
                     to time. I am diligent and do my projects to the best of my ability
                 </p>
                 <a class="mt-5 border-2 border-body
-                rounded-md p-3 fill-button fill-image mb-10 md:mb-0" href="https://i.ibb.co/Yyt3G3Y/resume.jpg" download>
+                rounded-md p-3 fill-button fill-image mb-10 md:mb-0" href="https://ibb.co/MckKdhL" download>
                     Resume
                 </a>
             </div>
