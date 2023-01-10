@@ -9,30 +9,22 @@
   },
   {
     "id": 2,
-    "name": "VueQuill",
-    "description": "Rich Text Editor Component for Vue 3. I contributed to the docs for a package with over 400⭐'s on github",
-    "tags": ["TypeScript", "Stylus", "Javascript"],
-    "projectLink": "https://vueup.github.io/vue-quill/",
-    "githubLink": "https://github.com/vueup/vue-quill"
-  },
-  {
-    "id": 3,
-    "name": "Jobber",
-    "description": "Jobber is a job board. It has a series of job listings and employer contacts with authentication. The image files are served from AWS S3",
-    "tags": ["Bootstrap", "PHP", "Laravel"],
-    "projectLink": "https://guarded-lake-88106.herokuapp.com/",
-    "githubLink": "https://github.com/Nelwhix/Jobber"
-  },
-  {
-    "id": 4,
     "name": "Devleads",
-    "description": "It has dark/light mode theme. It has a rich text editor made with QuillJS. It has google oauth2 login and regular email/password login",
+    "description": "A blog app that shares useful tips to other developers. It has dark/light mode theme, a rich text editor made with QuillJS, google oauth2 login and regular email/password login",
     "tags": ["Javascript", "Tailwind", "VueJS", "QuillJS", "googleOauth2"],
     "projectLink": "https://nelson-blog-app.netlify.app/",
     "githubLink": "https://github.com/Nelwhix/Vue-Blog-app"
   },
   {
-    "id": 5,
+    "id": 3,
+    "name": "VueQuill",
+    "description": "Rich Text Editor Component for Vue 3. I contributed to the docs for a package with over 400⭐'s on github",
+    "tags": ["TypeScript", "Stylus", "Javascript"],
+    "projectLink": "https://vueup.github.io/vue-quill/",
+    "githubLink": "https://github.com/vueup/vue-quill/commit/85998968b40801b38ab4c0b8fbdbf0f87d0f13f2"
+  },
+  {
+    "id": 4,
     "name": "Blog App API",
     "description": "This is a laravel API for my Vue Blog app. It has session based authentication for only my SPA, it has automated tests with PestPHP. It also has two types of users, Admin and guest. Admin has full admin abilities while guests are only allowed to view resources.",
     "tags": ["PHP", "Laravel"],
@@ -40,19 +32,11 @@
     "githubLink": "https://github.com/Nelwhix/blog-api"
   },
   {
-    "id": 6,
-    "name": "Quotsy-API",
-    "description": "Laravel API that responds with inspirational quotes. If you are making a mobile widget with flutter/swift to display quotes to users, this could be useful😁. It has Token based authentication with Laravel Sanctum. Only authenticated users are allowed to delete, update or add new quotes to the db. Guest users can search and view quotes",
-    "tags": ["PHP", "Laravel"],
+    "id": 5,
+    "name": "Fintech Dashboard",
+    "description": "Landing page for a Fintech's Dashboard. Open on Desktop!",
+    "tags": ["Vue", "TypeScript", "Tailwind"],
     "projectLink": "#",
-    "githubLink": "https://github.com/Nelwhix/blog-api"
-  },
-  {
-    "id": 7,
-    "name": "FileSorter",
-    "description": "Golang CLI that lists all the files in a directory, archives files and folders, deletes files and folders",
-    "tags": ["Golang"],
-    "projectLink": "#",
-    "githubLink": "https://github.com/Nelwhix/fileSorter"
+    "githubLink": "https://monobank-dashboard.netlify.app/"
   }
 ]
