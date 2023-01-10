@@ -36,7 +36,7 @@
     "name": "Fintech Dashboard",
     "description": "Landing page for a Fintech's Dashboard. Open on Desktop!",
     "tags": ["Vue", "TypeScript", "Tailwind"],
-    "projectLink": "#",
-    "githubLink": "https://monobank-dashboard.netlify.app/"
+    "projectLink": "https://monobank-dashboard.netlify.app/",
+    "githubLink": "https://github.com/Nelwhix/fintech-dashboard"
   }
 ]
