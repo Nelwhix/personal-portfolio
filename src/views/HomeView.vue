@@ -33,7 +33,26 @@ const portfolios = projects;
         </div>
         <h2 class="mt-10 text-3xl">Projects <span class="opacity-50">( ) {</span></h2>
         <div class="mt-6" id="projects">
-            <p>There are about <span class="text-body font-semibold text-xl">{{portfolios.length}}</span> projects listed here and more to come</p>
+            <!-- <div class="flex justify-between w-2/5">
+                <button>
+                    <span class="border py-1 px-2 rounded-md active">Frontend</span>
+                </button>
+                <button>
+                    <span class="border py-1 px-2 rounded-md hover:border-[#256eff]">
+                        Backend
+                    </span>
+                </button>
+               <button>
+                    <span class="border py-1 px-2 rounded-md hover:border-[#256eff]">
+                        CLI
+                    </span>
+                </button>
+                <button>
+                    <span class="border py-1 px-2 rounded-md hover:border-[#256eff]">
+                        Open Source
+                    </span>
+                </button>
+            </div> -->
             <div class="mb-10 grid grid-flow-row sm:grid-cols-2 sm:gap-4 md:gap-4 md:grid-cols-3">
                 <ProjectCard v-for="portfolio in portfolios" :key="portfolio.id" :portfolio="portfolio" class="transition-transform hover:scale-105 hover:duration-500 ease-in-out" />
             </div>
@@ -43,6 +62,10 @@ const portfolios = projects;
 </template>
 
 <style>
+    .active {
+        color: white !important;
+        background-color: #256eff !important;
+    }
     .desc {
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: black;
