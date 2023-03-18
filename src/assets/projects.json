@@ -37,15 +37,6 @@
   },
   {
     "id": 5,
-    "name": "Fintech Dashboard",
-    "description": "Landing page for a Fintech's Dashboard. Open on Desktop!",
-    "tools": ["Vue", "TypeScript", "Tailwind"],
-    "projectLink": "https://monobank-dashboard.netlify.app/",
-    "githubLink": "https://github.com/Nelwhix/fintech-dashboard",
-    "tag": "Frontend"
-  },
-  {
-    "id": 6,
     "name": "Portfolio API",
     "description": "API to manage projects in my portfolio website with JWT auth and mongodb",
     "tools": ["Docker", "MongoDB", "PHP", "NGINX", "JWT"],
@@ -54,7 +45,36 @@
     "tag": "Backend"
   },
   {
+    "id": 6,
+    "name": "Tutu-client",
+    "description": "Client app to make payments using the tutu-api",
+    "tools": ["React", "Typescript", "TanstackRouter"],
+    "projectLink": "https://tutu-client.netlify.app",
+    "githubLink": "https://github.com/Nelwhix/wallet-app",
+    "tag": "Frontend"
+  },
+  {
     "id": 7,
+    "name": "Library Management System",
+    "description": "An API for a Book Library ",
+    "tools": ["PHP", "Laravel", "PestPHP"],
+    "projectLink": "#",
+    "githubLink": "https://github.com/Nelwhix/Library-Mangement-System",
+    "tag": "Backend"
+  },
+
+  {
+    "id": 8,
+    "name": "Fintech Dashboard",
+    "description": "Landing page for a Fintech's Dashboard. Open on Desktop!",
+    "tools": ["Vue", "TypeScript", "Tailwind"],
+    "projectLink": "https://monobank-dashboard.netlify.app/",
+    "githubLink": "https://github.com/Nelwhix/fintech-dashboard",
+    "tag": "Frontend"
+  },
+  
+  {
+    "id": 9,
     "name": "Aang",
     "description": "CLI to prepare my Nuxt App for staging",
     "tools": ["Go"],
@@ -63,7 +83,7 @@
     "tag": "CLI"
   },
   {
-    "id": 8,
+    "id": 10,
     "name": "Attendance-form",
     "description": "A web app to record student attendance and export records as csv when needed",
     "tools": ["Go", "SQLITE"],
