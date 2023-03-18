@@ -18,9 +18,8 @@ const portfolios = projects;
                         I love making web apps that are fun to use
                     </span>
                 </p>
-                <p class="mt-5 text-sm md:text-lg">I'm a web developer specialized in building
-                    backend systems. then I play with Vue from time
-                    to time. I am diligent and do my projects to the best of my ability
+                <p class="mt-5 text-sm md:text-lg">I'm a Fullstack developer with 2+ years experience building products that
+                    satisfy client needs with Laravel and Vuejs. I am diligent and handle projects to the best of my ability
                 </p>
                 <a class="mt-5 border-2 border-body
                 rounded-md p-3 fill-button fill-image mb-10 md:mb-0" href="https://ibb.co/MckKdhL" download>

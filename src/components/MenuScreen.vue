@@ -28,6 +28,7 @@ const chMod = () => {
         </div>
         <nav class="text-white grid justify-end gap-1 mr-10 md:mr-16 font-header text-6xl md:text-[5rem] mt-12">
             <router-link :to="{name: 'home'}" class="text-end nav-link">HOME</router-link>
+            <a href="#experience" @click="chMod" class="text-body nav-link navLinks" data-text="EXPERIENCE">EXPERIENCE</a>
             <a href="#projects" @click="chMod" class="text-body nav-link navLinks" data-text="PROJECTS">PROJECTS</a>
             <a href="#contact" @click="chMod" class="navLinks nav-link text-body" data-text="CONTACT">CONTACT</a>
         </nav>
