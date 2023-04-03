@@ -1,31 +1,8 @@
 <script setup lang="ts">
 import ProjectCard from "../components/ProjectCard.vue";
-import { onMounted, ref } from "vue";
+import projects from "../assets/projects.json";
 
-const portfolios = ref([] as Array<Portfolio>)
-
-interface Portfolio {
-    _id: {
-        $oid: string
-    },
-    name: string,
-    description: string,
-    githubLink: string,
-    projectLink: string,
-    tools: string,
-    tag: string
-}
-
-onMounted(async () => {
-    try {
-        const req = await fetch('http://46.101.213.224/api/project')
-        const res = await req.json()
-        portfolios.value = res.projects
-    } catch (err) {
-        console.error(err)
-    }
-})
-
+const portfolios = projects;
 </script>
 
 <template>
@@ -41,8 +18,9 @@ onMounted(async () => {
                         I love making web apps that are fun to use
                     </span>
                 </p>
-                <p class="mt-5 text-sm md:text-lg">I'm a Fullstack developer with 2+ years experience building products that
-                    satisfy client needs with Laravel and Vuejs. I am diligent and handle projects to the best of my ability
+                <p class="mt-5 text-sm md:text-lg">I'm a web developer specialized in building
+                    backend systems. then I play with Vue from time
+                    to time. I am diligent and do my projects to the best of my ability
                 </p>
                 <a class="mt-5 border-2 border-body
                 rounded-md p-3 fill-button fill-image mb-10 md:mb-0" href="https://ibb.co/MckKdhL" download>
@@ -76,7 +54,7 @@ onMounted(async () => {
                 </button>
             </div> -->
             <div class="mb-10 grid grid-flow-row sm:grid-cols-2 sm:gap-4 md:gap-4 md:grid-cols-3">
-                <ProjectCard v-for="portfolio in portfolios" :key="portfolio._id.$oid" :portfolio="portfolio" class="transition-transform hover:scale-105 hover:duration-500 ease-in-out" />
+                <ProjectCard v-for="portfolio in portfolios" :key="portfolio.id" :portfolio="portfolio" class="transition-transform hover:scale-105 hover:duration-500 ease-in-out" />
             </div>
         </div>
         <span class="opacity-50 text-3xl">}</span>
