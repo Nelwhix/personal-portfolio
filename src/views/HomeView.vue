@@ -1,8 +1,31 @@
 <script setup lang="ts">
 import ProjectCard from "../components/ProjectCard.vue";
-import projects from "../assets/projects.json";
+import { onMounted, ref } from "vue";
 
-const portfolios = projects;
+const portfolios = ref([] as Array<Portfolio>)
+
+interface Portfolio {
+    _id: {
+        $oid: string
+    },
+    name: string,
+    description: string,
+    githubLink: string,
+    projectLink: string,
+    tools: string,
+    tag: string
+}
+
+onMounted(async () => {
+    try {
+        const req = await fetch('http://46.101.213.224/api/project')
+        const res = await req.json()
+        portfolios.value = res.projects
+    } catch (err) {
+        console.error(err)
+    }
+})
+
 </script>
 
 <template>
@@ -53,7 +76,7 @@ const portfolios = projects;
                 </button>
             </div> -->
             <div class="mb-10 grid grid-flow-row sm:grid-cols-2 sm:gap-4 md:gap-4 md:grid-cols-3">
-                <ProjectCard v-for="portfolio in portfolios" :key="portfolio.id" :portfolio="portfolio" class="transition-transform hover:scale-105 hover:duration-500 ease-in-out" />
+                <ProjectCard v-for="portfolio in portfolios" :key="portfolio._id.$oid" :portfolio="portfolio" class="transition-transform hover:scale-105 hover:duration-500 ease-in-out" />
             </div>
         </div>
         <span class="opacity-50 text-3xl">}</span>
