@@ -40,7 +40,7 @@
     "name": "Portfolio API",
     "description": "API to manage projects in my portfolio website with JWT auth and mongodb",
     "tools": ["Docker", "MongoDB", "PHP", "NGINX", "JWT"],
-    "projectLink": "#",
+    "projectLink": "http://46.101.213.224/api/project",
     "githubLink": "https://github.com/Nelwhix/portfolio-api",
     "tag": "Backend"
   },
