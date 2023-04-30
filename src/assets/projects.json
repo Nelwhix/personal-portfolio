@@ -90,5 +90,14 @@
     "projectLink": "#",
     "githubLink": "https://github.com/Nelwhix/Attendance-form",
     "tag": "FullStack"
+  },
+  {
+    "id": 11,
+    "name": "pScan",
+    "description": "pScan is a CLI tool that allows you to execute a port scan on specified TCP ports",
+    "tools": ["Go", "Cobra"],
+    "projectLink": "#",
+    "githubLink": "https://github.com/Nelwhix/pScan",
+    "tag": "CLI"
   }
 ]
