@@ -99,5 +99,24 @@
     "projectLink": "#",
     "githubLink": "https://github.com/Nelwhix/pScan",
     "tag": "CLI"
+  },
+  {
+    "id": 12,
+    "name": "Nuber",
+    "description": "A ride sharing app",
+    "tools": ["Typescript", "React", "Nextjs", "Tailwind", "Google Maps Platform"],
+    "projectLink": "#",
+    "githubLink": "https://github.com/Nelwhix/nuber-frontend",
+    "tag": "Frontend"
+  },
+  {
+    "id": 13,
+    "name": "Nuber-API",
+    "description": "API for a ride sharing app with websockets capabilities",
+    "tools": ["PHP", "Laravel", "Pusher"],
+    "projectLink": "#",
+    "githubLink": "https://github.com/Nelwhix/nuber-api",
+    "tag": "Backend"
   }
+
 ]
