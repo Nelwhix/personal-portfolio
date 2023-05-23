@@ -22,7 +22,7 @@ const portfolios = projects;
     satisfy client needs. I am diligent and handle projects to the best of my ability
                 </p>
                 <a class="mt-5 border-2 border-body
-                rounded-md p-3 fill-button fill-image mb-10 md:mb-0" href="https://ibb.co/MckKdhL" download>
+                rounded-md p-3 fill-button fill-image mb-10 md:mb-0" href="https://docs.google.com/document/d/11oDtGvZLDKa5VRptQ_pXXvbwmoOq6RJT1ueu9gas2Ag/edit?usp=sharing">
                     Resume
                 </a>
             </div>
