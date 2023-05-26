@@ -117,6 +117,14 @@
     "projectLink": "#",
     "githubLink": "https://github.com/Nelwhix/nuber-api",
     "tag": "Backend"
+  },
+  {
+    "id": 14,
+    "name": "Filepath",
+    "description": "A simple class with some static methods for manipulating file paths properly regardless of system architecture",
+    "tools": ["PHP"],
+    "projectLink": "https://packagist.org/packages/nelwhix/filepath",
+    "githubLink": "https://github.com/Nelwhix/filepath",
+    "tag": "OSS"
   }
-
 ]
