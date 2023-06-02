@@ -29,9 +29,6 @@ const portfolios = projects;
                     Resume
                 </a>
             </div>
-            <div class="col">
-                <img src="https://i.ibb.co/TqQnqDS/4-C4-FEAF2-1-AA2-407-F-98-C9-DB29-B2-CB3-AFC.jpg" alt="headshot" class="md:mt-0 md:ml-10 w-96 rounded-md">
-            </div>
         </div>
         <h2 class="mt-10 text-3xl">Projects <span class="opacity-50">( ) {</span></h2>
         <div class="mt-6" id="projects">
