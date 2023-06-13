@@ -100,11 +100,11 @@
   },
   {
     "id": 15,
-    "name": "Serve",
+    "name": "GoServe",
     "description": "A blazing fast local dev server for your html, css and javascript",
     "tools": ["GO"],
-    "projectLink": "#",
-    "githubLink": "https://github.com/Nelwhix/serve",
+    "projectLink": "https://www.npmjs.com/package/@nelwhix/goserve",
+    "githubLink": "https://github.com/Nelwhix/goserve",
     "tag": "CLI"
   }
 ]
