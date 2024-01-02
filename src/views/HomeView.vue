@@ -15,7 +15,7 @@ const portfolios = projects;
                         <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" alt="waving hand" class="w-6 inline">
                         , my name is <span class="block text-6xl">Isioma Nelson</span></span>
                     <span class="text-4xl text-white desc mt-5">
-                        I love making web apps that are fun to use
+                        from Lagos, Nigeria
                     </span>
                 </p>
                 <p class="mt-5 text-sm md:text-lg">I'm a Fullstack developer with 4+ years experience building products that
