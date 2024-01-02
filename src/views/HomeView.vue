@@ -18,7 +18,7 @@ const portfolios = projects;
                         I love making web apps that are fun to use
                     </span>
                 </p>
-                <p class="mt-5 text-sm md:text-lg">I'm a Fullstack developer with 2+ years experience building products that
+                <p class="mt-5 text-sm md:text-lg">I'm a Fullstack developer with 4+ years experience building products that
     satisfy client needs. I am diligent and handle projects to the best of my ability
                 </p>
                 <a 
